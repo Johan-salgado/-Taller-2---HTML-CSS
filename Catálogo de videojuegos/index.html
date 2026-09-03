@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Videojuegos</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
         <ul>
             <li><a href="#catalogo">Catálogo</a></li>
             <li><a href="#resenas">Reseñas</a></li>
+            <li><a href="#contacto" role="button">Sugerir Juego</a></li>
         </ul>
     </nav>
 
@@ -68,7 +70,60 @@
 
         <section id="resenas">
             <h2>Reseñas y Calificaciones</h2>
-            <p>Próximamente encontrarás aquí las calificaciones de cada juego.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Juego</th>
+                        <th>Género</th>
+                        <th>Calificación</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>The Silent Frontier</td>
+                        <td>Aventura / RPG</td>
+                        <td>4.8 / 5</td>
+                        <td>Disponible</td>
+                    </tr>
+                    <tr>
+                        <td>Turbo Rally 3</td>
+                        <td>Carreras</td>
+                        <td>4.3 / 5</td>
+                        <td>Disponible</td>
+                    </tr>
+                    <tr>
+                        <td>Nexus Tactics</td>
+                        <td>Estrategia</td>
+                        <td>4.6 / 5</td>
+                        <td>Próximamente</td>
+                    </tr>
+                    <tr>
+                        <td>Pixel Legends</td>
+                        <td>Plataformas</td>
+                        <td>4.1 / 5</td>
+                        <td>Disponible</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Sugerir un Juego</h2>
+            <form>
+                <input type="text" placeholder="Tu nombre">
+                <input type="email" placeholder="Tu correo electrónico">
+                <select>
+                    <option selected>Selecciona un género</option>
+                    <option>Aventura</option>
+                    <option>Carreras</option>
+                    <option>Estrategia</option>
+                    <option>Plataformas</option>
+                </select>
+                <textarea placeholder="Cuéntanos qué juego te gustaría ver en el catálogo"></textarea>
+                <button>Enviar sugerencia</button>
+            </form>
         </section>
     </main>
 
