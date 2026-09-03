@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Películas</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><strong>🎬 CineCatálogo</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#peliculas">Películas</a></li>
+            <li><a href="#calificaciones">Calificaciones</a></li>
+            <li><a href="#agregar" role="button">Agregar</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>🎬 Catálogo de Películas y Series</h1>
+        <p>
+            Explora, califica y organiza tus películas y series favoritas.
+        </p>
+    </header>
+
+    <main>
+
+        <section id="peliculas">
+            <h2>Catálogo</h2>
+            <div class="contenedor">
+                <article>
+                    <img src="https://picsum.photos/400/250?10" alt="Película">
+                    <h3>El Origen</h3>
+                    <p>Género: Ciencia Ficción</p>
+                    <progress value="90" max="100"></progress>
+                    <small>Calificación: 9.0</small>
+                    <button>Ver detalles</button>
+                </article>
+                <article>
+                    <img src="https://picsum.photos/400/250?11" alt="Película">
+                    <h3>La Odisea</h3>
+                    <p>Género: Aventura / Épico</p>
+                    <progress value="88" max="100"></progress>
+                    <small>Calificación: 8.8</small>
+                    <button>Ver detalles</button>
+                </article>
+                <article>
+                    <img src="https://picsum.photos/400/250?12" alt="Serie">
+                    <h3>Dexter</h3>
+                    <p>Género: Serie / Suspenso</p>
+                    <progress value="90" max="100"></progress>
+                    <small>Calificación: 9.0</small>
+                    <button>Ver detalles</button>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>Últimos Agregados</h2>
+            <ul>
+                <li>Se agregó la película "El Origen" al catálogo.</li>
+                <li>Se agregó la película "La Odisea" al catálogo.</li>
+                <li>Se agregó la serie "Dexter" al catálogo.</li>
+                <li>Se marcó "Breaking Bad" como pendiente por ver.</li>
+            </ul>
+        </section>
+
+        <section id="calificaciones">
+            <h2>Calificaciones</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Calificación</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>El Origen</td>
+                        <td>9.0</td>
+                        <td>Vista</td>
+                    </tr>
+                    <tr>
+                        <td>La Odisea</td>
+                        <td>8.8</td>
+                        <td>Vista</td>
+                    </tr>
+                    <tr>
+                        <td>Dexter</td>
+                        <td>9.0</td>
+                        <td>Vista</td>
+                    </tr>
+                    <tr>
+                        <td>Breaking Bad</td>
+                        <td>-</td>
+                        <td>Pendiente</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="agregar">
+            <h2>Agregar Película o Serie</h2>
+            <form>
+                <input type="text" placeholder="Título">
+                <select>
+                    <option selected>Selecciona un género</option>
+                    <option>Acción</option>
+                    <option>Drama</option>
+                    <option>Ciencia Ficción</option>
+                    <option>Comedia</option>
+                </select>
+                <textarea placeholder="Descripción o comentario"></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <small>
+            © 2026 Programación en Ambiente Web I · Universidad · HTML + PicoCSS
+        </small>
+    </footer>
+</body>
+
+</html>
