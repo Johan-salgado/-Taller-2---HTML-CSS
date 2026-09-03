@@ -1,4 +1,4 @@
-# 🎮 Catálogo de Videojuegos
+# Catálogo de Videojuegos
 
 Proyecto desarrollado para el **Taller 2 - HTML + CSS** de la asignatura
 **Programación en Ambiente Web I**, Facultad de Ingeniería, Unidad Central
@@ -6,7 +6,7 @@ del Valle del Cauca (UCEVA).
 
 **Docente:** Jesus David Mejia Vergara
 
-## 📌 Descripción
+## Descripción
 
 Página web que presenta un catálogo de videojuegos, permitiendo visualizar
 los títulos disponibles, consultar sus reseñas y calificaciones, y enviar
@@ -16,7 +16,7 @@ El proyecto fue construido aplicando buenas prácticas de estructuración
 semántica en HTML5 y estilos limpios en CSS, utilizando la librería
 **Pico CSS** (modo *classless*) como base de diseño.
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **HTML5** – estructura semántica del sitio (`nav`, `header`, `main`,
   `section`, `article`, `footer`).
@@ -24,7 +24,7 @@ semántica en HTML5 y estilos limpios en CSS, utilizando la librería
   cascada y herencia).
 - **Pico CSS** – sistema de estilos classless como base visual.
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 ├── index.html      # Estructura principal de la página
@@ -32,26 +32,19 @@ semántica en HTML5 y estilos limpios en CSS, utilizando la librería
 └── README.md         # Documentación del proyecto
 ```
 
-## 🧩 Secciones de la página
+## Secciones de la página
 
 - **Catálogo** – tarjetas con los videojuegos disponibles (imagen, género y
   precio).
 - **Reseñas** – tabla con las calificaciones y el estado de cada juego.
 - **Sugerir un Juego** – formulario de contacto para proponer nuevos títulos.
 
-## 🚀 Cómo visualizarlo
 
-1. Clona el repositorio.
-2. Abre el archivo `index.html` en tu navegador.
+## Autores
 
-No requiere instalación de dependencias adicionales; los estilos de Pico CSS
-se cargan desde un CDN.
+- Johan Eliu Salgado Castro - 230232033
+- Jose Daniel Tenorio Rivas - 230232009
 
-## 👥 Autores
-
-- Nombre Apellido
-- Nombre Apellido
-
-## 📄 Licencia
+## Licencia
 
 Proyecto académico desarrollado con fines educativos.
