@@ -46,10 +46,10 @@ header{
 }
 
 .contenedor article{
-
     flex:1;
     min-width:250px;
-
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border-radius: 10px;
 }
 
 img{
