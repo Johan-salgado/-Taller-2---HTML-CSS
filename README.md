@@ -15,8 +15,8 @@ librería **Pico CSS** (modo *classless*) como base de diseño.
 
 Las temáticas escogidas fueron:
 
-1. 🎮 **Catálogo de Videojuegos**
-2. 🎬 **Catálogo de Películas o Series**
+1. **Catálogo de Videojuegos**
+2. **Catálogo de Películas o Series**
 
 ## Tecnologías utilizadas
 
@@ -40,7 +40,7 @@ Las temáticas escogidas fueron:
 └── README.md             # Documentación del proyecto
 ```
 
-## 🎮 Catálogo de Videojuegos
+## Catálogo de Videojuegos
 
 Página web que presenta un catálogo de videojuegos, permitiendo visualizar
 los títulos disponibles, consultar sus reseñas y calificaciones, y enviar
@@ -53,7 +53,7 @@ sugerencias de nuevos juegos mediante un formulario de contacto.
 - **Reseñas** – tabla con las calificaciones y el estado de cada juego.
 - **Sugerir un Juego** – formulario de contacto para proponer nuevos títulos.
 
-## 🎬 Catálogo de Películas o Series
+## Catálogo de Películas o Series
 
 Página web que presenta un catálogo de películas y series, permitiendo
 visualizar los títulos disponibles con su año y calificación, consultar el
@@ -68,15 +68,6 @@ formulario.
 - **Calificaciones** – tabla con la calificación y el estado (vista /
   pendiente) de cada título.
 - **Agregar Película o Serie** – formulario para registrar nuevos títulos.
-
-## Cómo visualizarlo
-
-1. Clona el repositorio.
-2. Abre el `index.html` del proyecto que quieras revisar
-   (`catalogo-videojuegos/` o `catalogo-peliculas-series/`) en tu navegador.
-
-No requiere instalación de dependencias adicionales; los estilos de Pico CSS
-se cargan desde un CDN.
 
 ## Autores
 
